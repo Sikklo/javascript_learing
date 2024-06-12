@@ -1,0 +1,22 @@
+
+// setTimeout(() => {
+//   console.log("task1")
+// }, 3000);
+
+// console.log("task2");
+// console.log("task3");
+// console.log("task4");
+
+function func1(callback){
+  setTimeout(() => {
+    console.log("task1");
+    callback();
+  }, 3000);
+}
+function func2(){
+  console.log("task2");
+  console.log("task3");
+  console.log("task4");
+}
+
+func1(func2);
