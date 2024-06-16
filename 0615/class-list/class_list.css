@@ -1,0 +1,43 @@
+/* #myButton {
+    font-size: 4rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+} */
+
+.enabled {
+    background-color: violet;
+    color: white;
+}
+
+.hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.274);
+    font-weight: bold;
+}
+
+.disabled {
+    background-color: hsl(195, 53%, 69%);
+    color: hsl(195, 53%, 79%);
+}
+
+/* #myH1 {
+    font-size: 3rem;
+} */
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.myButton {
+
+    font-size: 4rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
